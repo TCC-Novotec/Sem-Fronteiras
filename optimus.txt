@@ -1,0 +1,58 @@
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                      Dropdown<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Ação</a></li>
+                      <li><a href="#">Outra ação</a></li>
+                      <li><a href="#">Qualquer coisa</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li class="dropdown-header">Outra categoria</li>
+                      <li><a href="#">Link separado</a></li>
+                      <li><a href="#">Outro link separado</a></li>
+                    </ul>
+                  </li>
+        _                                 _<br>
+        ||           ____            ||<br>
+        ||____/____\____||<br>
+        |=============|<br>
+        ||                ____      ||<br>
+        ||______||___||__||<br>
+        |______________|<br>
+       /                                     \<br>
+       |_______________|<br>
+       |||||||\__[____]__/||||||<br>
+       |_____/-------\_____|<br>
+  OPTIMUS PRIME
+      <div class="carvalho">
+        <p tag="titlu">Bem-vindo ao nosso guia de hotéis acessíveis no Brasil!.</p><br>
+      </div>
+      <div>
+        <p tag="objeto">Nesta página, você encontrará informações detalhadas
+        sobre hotéis que priorizam a acessibilidade e se dedicam a tornar a 
+        hospedagem uma experiência verdadeiramente agradável e acessível para todos os viajantes.</p>
+      </div>
+      <div class="mapa">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1HcwlSh4FCje6vK5THH1uVDuZ1GE9qpg&ehbc=2E312F&noprof=1" width="640" height="600"></iframe>
+      </div>
+
+
+
+
+            <form action="cadastro.php" method="POST">
+          <br><b><p>Digite seu nome: </p></b><br>
+          <input type="text" name="nome" class="text" placeholder="Digite seu nome..."><br><br>
+          <b><P>Digite seu email: </P></b><br>
+          <input type="email" name="email" class="text" placeholder="Digite seu email..."><br><br>
+          <b><P>Digite sua senha: </P></b><br>
+          <input type="password" name="senha" class="text" placeholder="Digite sua senha...">
+          <br><b><p>Nos diga seu genero: </p></b>
+          <input type="radio" name="sex" value="M">Masculino<br>
+          <input type="radio" name="sex" value="F">Feminino<br>
+          <input type="radio" name="sex" value="O">Outro<br><br><br>
+          <b><P>Você é PCD?<br>(Pessoa Com Deficiência): </P></b>
+          <input type="radio" name="pcd" value="S">Sim<br>
+          <input type="radio" name="pcd" value="N">Não<br>
+          <input type="radio" name="pcd" value="A">Acompanhante<br><br>
+          <input class="btnc" type="submit" name="salvar">
+          <input  class="btnc2" type="reset" name="limpar" value="Limpar">
+        </form>
